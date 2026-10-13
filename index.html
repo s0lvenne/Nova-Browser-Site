@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova Browser — Быстрый, свободный и приватный браузер</title>
+  <link rel="icon" type="image/png" href="assets/nova_icon.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="ambient-glow"></div>
+
+  <header>
+    <div class="container nav-inner">
+      <a href="#" class="brand">
+        <img src="assets/nova_icon.png" alt="Nova">
+        <span>Nova Browser</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#features">Возможности</a></li>
+        <li><a href="#proxy">Умный Прокси</a></li>
+        <li><a href="#security">Безопасность</a></li>
+        <li><a href="#comparison">Сравнение</a></li>
+        <li><a href="#download">Скачать</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="https://t.me/s0lvenne_s" target="_blank" class="btn btn-secondary btn-tg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+          Telegram
+        </a>
+        <a href="https://github.com/s0lvenne/Nova-Browser" target="_blank" class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub
+        </a>
+        <a href="#download" class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Скачать
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="badge-pill">
+          <span class="pulse-dot"></span>
+          <span>Релиз Nova Browser v0.8.1 Pre-Release</span>
+          <span>•</span>
+          <span>Windows 10 &amp; 11 x64</span>
+        </div>
+
+        <h1>
+          Веб-браузер нового поколения.<br>
+          <span class="gradient">Быстрый. Свободный. Твой.</span>
+        </h1>
+
+        <p>
+          Аппаратный движок WebView2, интеллектуальная оптимизация RAM Saver, мгновенная смена рабочих прокси без перезапуска и 100% открытый исходный код.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="https://github.com/s0lvenne/Nova-Browser/releases/download/0.8.1-Pre-Release/Nova.Browser.0.8.1.Pre-Release.exe" class="btn btn-primary" style="padding: 15px 32px; font-size: 16px;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>
+            Скачать Installer (.exe)
+          </a>
+          <a href="https://github.com/s0lvenne/Nova-Browser/releases/download/0.8.1-Pre-Release/Nova.Browser.0.8.1.Pre-Release-Portable.zip" class="btn btn-secondary" style="padding: 15px 30px; font-size: 16px;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Portable (.zip)
+          </a>
+          <a href="https://t.me/s0lvenne_s" target="_blank" class="btn btn-secondary btn-tg" style="padding: 15px 24px; font-size: 16px;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+            Telegram-канал
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <span>✓ Windows 10/11 x64</span>
+          <span>✓ 0% Скрытой телеметрии</span>
+          <span>✓ Свободная лицензия MIT</span>
+          <span>✓ Холодный старт за 0.3с</span>
+        </div>
+
+        <div class="mockup-wrapper">
+          <div class="mockup-window">
+            <div class="win-titlebar">
+              <div class="win-titlebar-left">
+                <span class="win-brand-logo">NOVA</span>
+                <div class="win-tab">
+                  <span>Новая вкладка</span>
+                  <span class="win-tab-close">✕</span>
+                </div>
+              </div>
+              <div class="win-controls">
+                <span>−</span>
+                <span>□</span>
+                <span>✕</span>
+              </div>
+            </div>
+
+            <div class="win-navbar">
+              <div class="nav-btn-icon">‹</div>
+              <div class="nav-btn-icon">›</div>
+              <div class="nav-btn-icon">↻</div>
+              <div class="nav-btn-icon">⌂</div>
+
+              <div class="win-addressbar">
+                <span id="mockupAddressText">Поиск в интернете или адрес сайта...</span>
+                <span id="mockupProxyBadge" style="background: rgba(190, 244, 123, 0.15); border: 1px solid var(--accent); color: var(--accent); padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 700;">✓ ПРОКСИ АКТИВЕН (155 мс)</span>
+              </div>
+
+              <div class="win-nav-tools">
+                <div class="nav-btn-icon" style="color: var(--accent);">🔒</div>
+                <div class="nav-btn-icon">🔊</div>
+                <div class="nav-btn-icon">★</div>
+                <div class="nav-btn-icon">↓</div>
+                <div class="nav-btn-icon">🛡</div>
+                <div class="nav-btn-icon">⋮</div>
+              </div>
+            </div>
+
+            <div class="win-content">
+              <div class="content-topbar">
+                <div class="waffle-btn">:::</div>
+                <div class="top-pills">
+                  <div class="top-pill">
+                    <span class="dot"></span>
+                    <span>Linz +9°C ⛅</span>
+                  </div>
+                  <div class="top-pill">
+                    <span class="dot"></span>
+                    <span>1 USD = 84.04 ₽</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content-center">
+                <h2 class="home-greeting">Добрый вечер!</h2>
+                <div class="home-subgreeting">Что вы хотите исследовать сегодня?</div>
+
+                <div class="home-searchbar">
+                  <div class="search-left">
+                    <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    <span>Поиск в интернете</span>
+                  </div>
+                  <div class="search-btn-go">→</div>
+                </div>
+
+                <div class="home-dials">
+                  <div class="dial-card">
+                    <div class="dial-icon-box">
+                      <svg width="28" height="28" viewBox="0 0 24 24" fill="#ff0000"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.5 12 3.5 12 3.5s-7.505 0-9.377.55a3.016 3.016 0 0 0-2.122 2.136C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.55 9.376.55 9.376.55s7.505 0 9.377-.55a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    </div>
+                    <span class="dial-label">YouTube</span>
+                  </div>
+
+                  <div class="dial-card">
+                    <div class="dial-icon-box" style="background: #000000;">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </div>
+                    <span class="dial-label">X</span>
+                  </div>
+
+                  <div class="dial-card">
+                    <div class="dial-icon-box" style="background: #24292e;">
+                      <svg width="26" height="26" viewBox="0 0 24 24" fill="#ffffff"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    </div>
+                    <span class="dial-label">GitHub</span>
+                  </div>
+
+                  <div class="dial-card">
+                    <div class="dial-icon-box" style="background: #ff4500;">
+                      <svg width="26" height="26" viewBox="0 0 24 24" fill="#ffffff"><circle cx="12" cy="12" r="10"/><path fill="#ff4500" d="M12 4a8 8 0 1 0 0 16 8 8 0 0 0 0-16z"/><circle cx="9" cy="11.5" r="1.5" fill="#ffffff"/><circle cx="15" cy="11.5" r="1.5" fill="#ffffff"/><path d="M8.5 15c1 1.2 2.2 1.8 3.5 1.8s2.5-.6 3.5-1.8" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" fill="none"/></svg>
+                    </div>
+                    <span class="dial-label">Reddit</span>
+                  </div>
+
+                  <div class="dial-card">
+                    <div class="dial-icon-box">
+                      <span style="font-family: serif; font-size: 28px; font-weight: 700; color: #000000;">W</span>
+                    </div>
+                    <span class="dial-label">Wikipedia</span>
+                  </div>
+
+                  <div class="dial-card">
+                    <div class="dial-icon-box" style="background: #111111;">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+                    </div>
+                    <span class="dial-label">Новости</span>
+                  </div>
+
+                  <div class="dial-card">
+                    <div class="dial-icon-box add-box">+</div>
+                    <span class="dial-label">Добавить</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="games-fab">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="20" height="12" rx="6"/><polygon points="6 12 8 10 8 14 6 12" fill="currentColor"/><circle cx="16" cy="10" r="1" fill="currentColor"/><circle cx="18" cy="12" r="1" fill="currentColor"/><circle cx="16" cy="14" r="1" fill="currentColor"/></svg>
+              </div>
+
+              <div class="content-footer">
+                <div class="status-left">Готов</div>
+                <div class="status-right">
+                  <span>Защита</span>
+                  <span>RAM: 526 MB</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-section">
+      <div class="container">
+        <div class="stats-grid">
+          <div>
+            <div class="stat-number">0.3с</div>
+            <div class="stat-label">Холодный старт приложения</div>
+          </div>
+          <div>
+            <div class="stat-number">-60%</div>
+            <div class="stat-label">Экономия RAM с RAM Saver</div>
+          </div>
+          <div>
+            <div class="stat-number">0 мс</div>
+            <div class="stat-label">Смена Прокси без перезапуска</div>
+          </div>
+          <div>
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Открытый исходный код</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="bento-section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Архитектура скорости и абсолютной приватности</h2>
+          <p>Nova объединяет бескомпромиссную мощь движка Chromium WebView2 с архитектурными инновациями .NET 9.</p>
+        </div>
+
+        <div class="bento-grid">
+          <div class="bento-card col-span-2" id="proxy">
+            <div>
+              <div class="card-badge">LIVE PROXY SWITCHER</div>
+              <h3>Умный Прокси без перезапуска</h3>
+              <p>
+                Больше никаких красных мёртвых узлов. Браузер в реальном времени пингует и отображает исключительно живые серверы. Поддерживаются локальные клиенты Tor Browser, Clash, v2ray, Shadowsocks и быстрые публичные узлы. Переключение происходит мгновенно на лету через встроенный шлюз.
+              </p>
+            </div>
+
+            <div class="proxy-interactive-demo" id="proxyDemoContainer">
+              <div class="demo-proxy-node active" onclick="selectDemoNode(this, 'Германия (DigitalOcean Cloud)', '155 мс')">
+                <div class="demo-node-info">
+                  <span class="demo-node-badge">HTTP</span>
+                  <span class="demo-node-name">Германия (DigitalOcean Cloud)</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 12px;">
+                  <span class="demo-node-ping">✓ 155 мс</span>
+                  <button class="btn-connect-demo active">✓ Активен</button>
+                </div>
+              </div>
+
+              <div class="demo-proxy-node" onclick="selectDemoNode(this, 'США (Vultr Cloud Infrastructure)', '219 мс')">
+                <div class="demo-node-info">
+                  <span class="demo-node-badge">HTTP</span>
+                  <span class="demo-node-name">США (Vultr Cloud Infrastructure)</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 12px;">
+                  <span class="demo-node-ping">✓ 219 мс</span>
+                  <button class="btn-connect-demo">Подключить</button>
+                </div>
+              </div>
+
+              <div class="demo-proxy-node" onclick="selectDemoNode(this, 'Tor Browser SOCKS5 (Порт 9150)', '1 мс')">
+                <div class="demo-node-info">
+                  <span class="demo-node-badge">SOCKS5</span>
+                  <span class="demo-node-name">Tor Browser (Порт 9150)</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 12px;">
+                  <span class="demo-node-ping">✓ 1 мс</span>
+                  <button class="btn-connect-demo">Подключить</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bento-card">
+            <div>
+              <div class="card-badge">RAM SAVER ENGINE</div>
+              <h3>Глубокая оптимизация RAM</h3>
+              <p>Агрессивный контроль потребления памяти не дает браузеру пожирать гигабайты. Неактивные фоновые страницы автоматически замораживаются без потери данных.</p>
+            </div>
+
+            <div class="ram-graph-wrapper">
+              <div class="ram-bar-row">
+                <div class="ram-bar-label">
+                  <span style="color: var(--accent);">Nova Browser</span>
+                  <span style="color: var(--accent);">~240 МБ</span>
+                </div>
+                <div class="ram-bar-bg">
+                  <div class="ram-bar-fill-nova"></div>
+                </div>
+              </div>
+
+              <div class="ram-bar-row">
+                <div class="ram-bar-label">
+                  <span>Обычные Chromium-браузеры</span>
+                  <span>~1200 МБ</span>
+                </div>
+                <div class="ram-bar-bg">
+                  <div class="ram-bar-fill-other"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bento-card" id="security">
+            <div>
+              <div class="card-badge">STEALER SHIELD</div>
+              <h3>Защита от стиллеров &amp; Рекламы</h3>
+              <p>
+                Встроенный сигнатурный сканер опасных инжекторов в загружаемых .jar и .exe файлах, автоматическая блокировка рекламы и трекеров без сторонних расширений.
+              </p>
+            </div>
+          </div>
+
+          <div class="bento-card">
+            <div>
+              <div class="card-badge">RETRO ARCADE</div>
+              <h3>Встроенная ретро-аркада</h3>
+              <p>
+                Flappy Bird, Тетрис и Chrome Dino прямо на стартовой странице. Запускаются мгновенно в один клик и работают полностью автономно без подключения к интернету.
+              </p>
+            </div>
+
+            <div class="game-mini-showcase">
+              <div class="game-chip">
+                <div class="game-chip-icon">🐦</div>
+                <div class="game-chip-name">Flappy Bird</div>
+              </div>
+              <div class="game-chip">
+                <div class="game-chip-icon">🕹️</div>
+                <div class="game-chip-name">Тетрис</div>
+              </div>
+              <div class="game-chip">
+                <div class="game-chip-icon">🦖</div>
+                <div class="game-chip-name">Dino Runner</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bento-card">
+            <div>
+              <div class="card-badge">ZERO TELEMETRY</div>
+              <h3>100% Open Source</h3>
+              <p>
+                Ни единого байта скрытой телеметрии или коммерческого трекинга. Полный исходный код открыт на GitHub под лицензией MIT. Вы сами контролируете свой браузер.
+              </p>
+            </div>
+            <div style="margin-top: 20px;">
+              <a href="https://github.com/s0lvenne/Nova-Browser" target="_blank" class="btn btn-secondary" style="width: 100%; font-size: 13.5px;">
+                Смотреть репозиторий
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="comparison" class="comparison">
+      <div class="container">
+        <div class="section-head">
+          <h2>Честное сравнение с лидерами рынка</h2>
+          <p>Посмотрите, чем Nova превосходит стандартные браузеры, забитые телеметрией и рекламой.</p>
+        </div>
+
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Характеристика</th>
+                <th class="highlight">Nova Browser</th>
+                <th>Google Chrome</th>
+                <th>Microsoft Edge</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Потребление оперативной памяти</td>
+                <td class="highlight">Минимальное (RAM Saver)</td>
+                <td>Очень высокое</td>
+                <td>Среднее</td>
+              </tr>
+              <tr>
+                <td>Смена Прокси без перезапуска браузера</td>
+                <td class="highlight">✓ Да, встроенный шлюз</td>
+                <td>✗ Требует сторонних расширений</td>
+                <td>✗ Только системные настройки</td>
+              </tr>
+              <tr>
+                <td>Показ только рабочих прокси (пинг-фильтр)</td>
+                <td class="highlight">✓ Да, автоматическая проверка</td>
+                <td>✗ Нет</td>
+                <td>✗ Нет</td>
+              </tr>
+              <tr>
+                <td>Встроенная блокировка рекламы и YouTube</td>
+                <td class="highlight">✓ Из коробки</td>
+                <td>✗ Ограничено Manifest v3</td>
+                <td>✗ Нужны расширения</td>
+              </tr>
+              <tr>
+                <td>Защита от стиллеров в .jar и .exe</td>
+                <td class="highlight">✓ Автосканирование загрузок</td>
+                <td>✗ Базовый SmartScreen</td>
+                <td>✗ Базовый SmartScreen</td>
+              </tr>
+              <tr>
+                <td>Телеметрия и отправка данных разработчикам</td>
+                <td class="highlight">0% (Полностью отключена)</td>
+                <td>Постоянная</td>
+                <td>Постоянная</td>
+              </tr>
+              <tr>
+                <td>Открытый исходный код (Open Source)</td>
+                <td class="highlight">✓ Да (Лицензия MIT)</td>
+                <td>✗ Закрытый проприетарный</td>
+                <td>✗ Закрытый проприетарный</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="download-section">
+      <div class="container">
+        <div class="download-box">
+          <h2>Готовы ощутить разницу?</h2>
+          <p>Скачайте Nova Browser прямо сейчас — почувствуйте скорость, контроль и свободу в каждом клике.</p>
+
+          <div class="download-cards">
+            <div class="dl-card">
+              <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+                <h4>Инсталлятор (.exe)</h4>
+                <span style="background: rgba(190, 244, 123, 0.15); color: var(--accent); font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px;">РЕКОМЕНДУЕТСЯ</span>
+              </div>
+              <p>Nova.Browser.0.8.1.Pre-Release.exe для быстрой и чистой установки на Windows 10/11 x64.</p>
+              <a href="https://github.com/s0lvenne/Nova-Browser/releases/download/0.8.1-Pre-Release/Nova.Browser.0.8.1.Pre-Release.exe" class="btn btn-primary" style="width: 100%;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                Скачать Installer (.exe)
+              </a>
+            </div>
+
+            <div class="dl-card">
+              <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+                <h4>Портативная версия (.zip)</h4>
+                <span style="background: rgba(255, 255, 255, 0.1); color: #fff; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px;">PORTABLE</span>
+              </div>
+              <p>Nova.Browser.0.8.1.Pre-Release-Portable.zip без инсталляции, готовый к запуску с флешки.</p>
+              <a href="https://github.com/s0lvenne/Nova-Browser/releases/download/0.8.1-Pre-Release/Nova.Browser.0.8.1.Pre-Release-Portable.zip" class="btn btn-secondary" style="width: 100%;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                Скачать Portable (.zip)
+              </a>
+            </div>
+
+            <div class="dl-card">
+              <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+                <h4>Исходный код (GitHub)</h4>
+                <span style="background: rgba(255, 255, 255, 0.1); color: #fff; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px;">SOURCE</span>
+              </div>
+              <p>Чистый репозиторий проекта на .NET 9 и C#. Сборка, форки и документация.</p>
+              <a href="https://github.com/s0lvenne/Nova-Browser" target="_blank" class="btn btn-secondary" style="width: 100%;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                Сурс-код на GitHub
+              </a>
+            </div>
+          </div>
+
+          <div style="margin-bottom: 30px; padding: 18px 24px; background: rgba(42, 171, 238, 0.08); border: 1px solid rgba(42, 171, 238, 0.3); border-radius: 14px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px;">
+            <div style="display: flex; align-items: center; gap: 14px; text-align: left;">
+              <div style="width: 42px; height: 42px; border-radius: 50%; background: #2aabee; display: flex; align-items: center; justify-content: center; color: #ffffff; flex-shrink: 0;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+              </div>
+              <div>
+                <div style="font-weight: 800; font-size: 15px; color: #ffffff;">Официальный Telegram-канал</div>
+                <div style="font-size: 13px; color: var(--text-sec);">Новости, анонсы обновлений и общение: @s0lvenne_s</div>
+              </div>
+            </div>
+            <a href="https://t.me/s0lvenne_s" target="_blank" class="btn btn-secondary btn-tg">
+              Подписаться на канал
+            </a>
+          </div>
+
+          <div class="hero-meta" style="justify-content: center;">
+            <span>Минимальные требования: Windows 10 x64 (1809+) или Windows 11</span>
+            <span>•</span>
+            <span>Версия: 0.8.1 Pre-Release</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <img src="assets/nova_icon.png" width="26" height="26" alt="Nova" style="border-radius: 6px;">
+        <span>© 2026 Nova Browser. Свободное ПО под лицензией MIT.</span>
+      </div>
+
+      <div style="display: flex; gap: 24px; align-items: center; flex-wrap: wrap;">
+        <a href="https://t.me/s0lvenne_s" target="_blank" style="color: #2aabee; font-weight: 600;">Telegram @s0lvenne_s</a>
+        <a href="https://github.com/s0lvenne/Nova-Browser" target="_blank">Сурс на GitHub</a>
+        <a href="https://github.com/s0lvenne/Nova-Browser/releases" target="_blank">Все релизы</a>
+        <a href="#features">Возможности</a>
+        <a href="#download">Загрузки</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
